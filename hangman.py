@@ -40,6 +40,7 @@ while left_guesses != 0:
             if guess == tup[1]:
                 dashes_l[tup[0]] = guess
                 counter = 1
+                left_guesses += 1
 
         if counter == 1:
             print("good guess!")
