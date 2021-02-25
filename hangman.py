@@ -32,6 +32,7 @@ en_words = list(enumerate(correct_letters)): Makes a list that each item is a tu
 that contains the index of each letter in word.
 """
 # -----------------------
+print("This is a %s letter word" % x)
 while left_guesses != 0:
         guess = input("guess a letter: ")
         left_guesses -= 1
