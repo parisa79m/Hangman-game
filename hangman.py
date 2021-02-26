@@ -25,14 +25,14 @@ x = len(word)
 dashes_l = ["-"]*x
 en_words = list(enumerate(correct_letters))
 counter2 = 0
-counter = 0
+counter = 0  
+print("This is a %s letter word" % x)
 """
 The for loop: Separates the letters of the word.
 en_words = list(enumerate(correct_letters)): Makes a list that each item is a tuple 
 that contains the index of each letter in word.
 """
 # -----------------------
-print("This is a %s letter word" % x)
 while left_guesses != 0:
         guess = input("guess a letter: ")
         left_guesses -= 1
