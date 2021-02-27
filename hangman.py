@@ -26,6 +26,7 @@ dashes_l = ["-"]*x
 en_words = list(enumerate(correct_letters))
 counter2 = 0
 counter = 0
+
 print("This is a %s letter word" % x)
 """
 The for loop: Separates the letters of the word.
